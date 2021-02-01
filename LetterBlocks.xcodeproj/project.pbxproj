@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		34C9B2B525C7C4D100760162 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34C9B2B425C7C4D100760162 /* main.cpp */; };
+		34C9B2BE25C7C5F100760162 /* BeautifulTextWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34C9B2BC25C7C5F100760162 /* BeautifulTextWriter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		34C9B2B125C7C4D100760162 /* LetterBlocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LetterBlocks; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C9B2B425C7C4D100760162 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		34C9B2BC25C7C5F100760162 /* BeautifulTextWriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BeautifulTextWriter.cpp; sourceTree = "<group>"; };
+		34C9B2BD25C7C5F100760162 /* BeautifulTextWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautifulTextWriter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				34C9B2B425C7C4D100760162 /* main.cpp */,
+				34C9B2BC25C7C5F100760162 /* BeautifulTextWriter.cpp */,
+				34C9B2BD25C7C5F100760162 /* BeautifulTextWriter.h */,
 			);
 			path = LetterBlocks;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34C9B2B525C7C4D100760162 /* main.cpp in Sources */,
+				34C9B2BE25C7C5F100760162 /* BeautifulTextWriter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
