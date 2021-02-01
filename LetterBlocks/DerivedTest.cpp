@@ -8,9 +8,12 @@
 
 #include "DerivedTest.hpp"
 
-Specification specifyText(){
+DerivedTest::DerivedTest() : BeautifulTextWriter(){
+    specs = specifyText();
+}
+Specification DerivedTest::specifyText() {
     Specification MyString;
     MyString.style = 3;
-    MyString.text = "Trial";
+    MyString.text = "TRIAL";
     return MyString;
 }

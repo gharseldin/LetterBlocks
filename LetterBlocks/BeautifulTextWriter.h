@@ -40,7 +40,6 @@ private:
     
     // File containing letter styles
     string fileName;
-    Specification specs;
     
     // Internal implementation Methods
     void writeText();
@@ -50,7 +49,8 @@ private:
     void printLetters(string letter, int lines, int LettersFileStart);
     
 protected:
-    Specification specifyText();
+    Specification specs;
+    virtual Specification specifyText();
     
 public:
     BeautifulTextWriter();

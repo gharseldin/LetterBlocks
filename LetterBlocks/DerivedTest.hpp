@@ -11,7 +11,12 @@
 #include "BeautifulTextWriter.h"
 
 class DerivedTest:public BeautifulTextWriter{
-    
+
+public:
+    DerivedTest();
+
+protected:
+    Specification specifyText() override;
     
 };
 #endif /* DerivedTest_hpp */
