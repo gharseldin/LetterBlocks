@@ -84,9 +84,13 @@ void BeautifulTextWriter::printLetters(string letters, int lines, int LettersFil
     }
 }
 
+/**
+ This is the function you need to override. Do not write anything here.
+ Just define the same function in your child class cpp file and when you
+ create an instance of your class it will use the definition there instead
+ of anything in the parent class. 
+ */
 Specification BeautifulTextWriter::specifyText(){
     Specification spec;
-    spec.text = "TEST";
-    spec.style = 2;
     return spec;
 }
