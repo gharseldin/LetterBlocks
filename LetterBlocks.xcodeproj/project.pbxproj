@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		34C9B2B525C7C4D100760162 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34C9B2B425C7C4D100760162 /* main.cpp */; };
 		34C9B2BE25C7C5F100760162 /* BeautifulTextWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34C9B2BC25C7C5F100760162 /* BeautifulTextWriter.cpp */; };
+		3E65CAA725C8082000F4B632 /* DerivedTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E65CAA525C8082000F4B632 /* DerivedTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		34C9B2B425C7C4D100760162 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		34C9B2BC25C7C5F100760162 /* BeautifulTextWriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BeautifulTextWriter.cpp; sourceTree = "<group>"; };
 		34C9B2BD25C7C5F100760162 /* BeautifulTextWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautifulTextWriter.h; sourceTree = "<group>"; };
+		3E65CAA525C8082000F4B632 /* DerivedTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DerivedTest.cpp; sourceTree = "<group>"; };
+		3E65CAA625C8082000F4B632 /* DerivedTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DerivedTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				34C9B2B425C7C4D100760162 /* main.cpp */,
 				34C9B2BC25C7C5F100760162 /* BeautifulTextWriter.cpp */,
 				34C9B2BD25C7C5F100760162 /* BeautifulTextWriter.h */,
+				3E65CAA525C8082000F4B632 /* DerivedTest.cpp */,
+				3E65CAA625C8082000F4B632 /* DerivedTest.hpp */,
 			);
 			path = LetterBlocks;
 			sourceTree = "<group>";
@@ -93,7 +98,7 @@
 		34C9B2A925C7C4D100760162 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = Gharseldin;
 				TargetAttributes = {
 					34C9B2B025C7C4D100760162 = {
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E65CAA725C8082000F4B632 /* DerivedTest.cpp in Sources */,
 				34C9B2B525C7C4D100760162 /* main.cpp in Sources */,
 				34C9B2BE25C7C5F100760162 /* BeautifulTextWriter.cpp in Sources */,
 			);
@@ -158,6 +164,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -216,6 +223,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -244,6 +252,7 @@
 		34C9B2B925C7C4D100760162 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2AYJUCL5U2;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -254,6 +263,7 @@
 		34C9B2BA25C7C4D100760162 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2AYJUCL5U2;
 				ENABLE_HARDENED_RUNTIME = YES;

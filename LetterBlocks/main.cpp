@@ -8,18 +8,17 @@
 
 #include <iostream>
 #include "BeautifulTextWriter.h"
+#include "DerivedTest.hpp"
 #include <fstream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main() {
 
+    DerivedTest Object01;
+    Object01.write();
     // TODO
     // Here you'd want to call your extended class and call write on it
     // eg.
     // MyTextWriter writer;
     // writer.write();
     // and enjoy the nice text :)
-    
 }
